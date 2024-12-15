@@ -20,7 +20,7 @@ body {
 @media (max-width: 768px) {
   .about {
     text-align: center;
-}
+  }
 }
 .manage-items {
   display: block;
