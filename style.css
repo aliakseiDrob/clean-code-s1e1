@@ -22,7 +22,7 @@ body {
     text-align: center;
   }
 }
-.manage-items {
+.section {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -60,6 +60,10 @@ button:hover {
   color: #3a3a3a;
 }
 /* Heading */
+.section-header{
+  display: none;
+}
+
 h3,
 label[for="new-task"] {
   color: #333;
@@ -87,7 +91,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
+#add-task h3 {
   display: block;
   margin: 0 0 20px;
 }
